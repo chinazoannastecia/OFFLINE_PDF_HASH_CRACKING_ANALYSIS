@@ -21,13 +21,16 @@ This project documents a controlled cybersecurity lab focused on recovering pass
 | **Operating System** | Windows 11 (64-bit) |
 | **Hash Extraction** | OnlineHashCrack PDF Hash Extractor, Networkwalks PDF Hash Calculator |
 | **Password Cracking** | John the Ripper Jumbo (CLI), Johnny (GUI for JTR), Networkwalks Online PDF Cracker |
-Module 1 — John the Ripper (JTR)
-Module 2 — Networkwalks Tools
-Hash Extraction: The target PDF files were uploaded to the Networkwalks Hash Calculator to parse the files and extract their hashes within the web browser.
-Cracking Process: The extracted hashes were supplied to the Networkwalks Password Cracker, where its built-in wordlist attack was executed to recover the passwords.
-Hash Extraction: The online tool at onlinehashcrack.com was used to extract the $pdf$ hashes from the locked PDF files.
-Preparation: The extracted hash values were saved into .txt files for local processing.
-Cracking Process: The hash files were imported into the Johnny GUI, which provides a graphical interface for JTR, and a dictionary attack was executed to recover the passwords.
+### **Methodology**
+#### **Module 1 — John the Ripper (JTR)**
+
+1.  **Hash Extraction:** The hashes were extracted from the protected PDF files using the PDF hash extractor tool on `onlinehashcrack.com` to generate the `$pdf$` format hashes.
+2.  **Preparation:** All extracted hash strings were saved into separate `.txt` files to prepare them for offline cracking.
+3.  **Cracking Process:** The hash files were loaded into Johnny, the graphical user interface for John the Ripper, where a dictionary attack using the built-in wordlist was launched to recover the cleartext passwords.
+4.  #### **Module 2 — Networkwalks Tools**
+
+1.  **Hash Extraction:** The target PDF files were uploaded directly to the Networkwalks PDF Hash Calculator to automatically extract and parse the file hashes.
+2.  **Cracking Process:** The extracted hashes were then submitted to the Networkwalks Online PDF Password Cracker, where its built-in wordlist attack was executed to recover the passwords.
 ### **Results**
 
 The dictionary-based attacks successfully recovered the passwords for all three encrypted PDF files, which allowed the hidden CTF flags inside each document to be retrieved.
