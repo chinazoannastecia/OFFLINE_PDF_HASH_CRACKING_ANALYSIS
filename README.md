@@ -10,3 +10,14 @@ This project documents a controlled cybersecurity lab focused on recovering pass
 | **Instructor** | Waqas Karim CCIE |
 | **Date** | September 27, 2026 |
 | **Classification** | Training |
+### **Objectives**
+
+*   To understand and perform offline password recovery for encrypted PDF documents through hash extraction and dictionary-based cracking techniques.
+*   To analyze and document the difference between cracking with a locally installed John the Ripper / Johnny setup and using the cloud-based tools provided by Networkwalks.
+*   ### **Environment & Tools**
+
+| Category | Tools / Details |
+| :--- | :--- |
+| **Operating System** | Windows 11 (64-bit) |
+| **Hash Extraction** | OnlineHashCrack PDF Hash Extractor, Networkwalks PDF Hash Calculator |
+| **Password Cracking** | John the Ripper Jumbo (CLI), Johnny (GUI for JTR), Networkwalks Online PDF Cracker |
