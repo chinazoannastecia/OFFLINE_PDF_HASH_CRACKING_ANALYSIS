@@ -44,8 +44,9 @@ Target 1
 Extracted Hash: $pdf$4*4*128*-1028*1*16*0853f2c...
 Cracked Password: password1
 Captured Flag: nw{networkwalks_persistence_jtr_270521}
-### **Evidence / Screenshots**
 
-#### **Target 1 Proof**
-![Target 1 - JTR Cracking](Screenshot%202026-09-27%20063518.png)
+### **Evidence**
 
+#### **Proof of Cracking**
+
+![Lab Evidence](Screenshot%202026-09-27%20063603.png)
