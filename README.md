@@ -22,6 +22,9 @@ This project documents a controlled cybersecurity lab focused on recovering pass
 | **Hash Extraction** | OnlineHashCrack PDF Hash Extractor, Networkwalks PDF Hash Calculator |
 | **Password Cracking** | John the Ripper Jumbo (CLI), Johnny (GUI for JTR), Networkwalks Online PDF Cracker |
 Module 1 — John the Ripper (JTR)
+Module 2 — Networkwalks Tools
+Hash Extraction: The target PDF files were uploaded to the Networkwalks Hash Calculator to parse the files and extract their hashes within the web browser.
+Cracking Process: The extracted hashes were supplied to the Networkwalks Password Cracker, where its built-in wordlist attack was executed to recover the passwords.
 Hash Extraction: The online tool at onlinehashcrack.com was used to extract the $pdf$ hashes from the locked PDF files.
 Preparation: The extracted hash values were saved into .txt files for local processing.
 Cracking Process: The hash files were imported into the Johnny GUI, which provides a graphical interface for JTR, and a dictionary attack was executed to recover the passwords.
