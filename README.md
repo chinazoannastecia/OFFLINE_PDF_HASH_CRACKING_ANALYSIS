@@ -50,6 +50,14 @@ Captured Flag: nw{networkwalks_persistence_jtr_270521}
 #### **Proof of Cracking**
 
 ![Lab Evidence](Screenshot%202026-09-27%20063603.png)
+### **Evidence / Screenshots**
+
+#### **First Target Proof**
+![First Proof](Screenshot%202026-09-27%20055457.png)
+
+#### **Last Target Proof**
+![Last Proof](Screenshot%202026-09-27%20070442.png)
+
 
 Target 2
 Extracted Hash: $pdf$4*4*128*-1028*1*16*ca7f72f...
