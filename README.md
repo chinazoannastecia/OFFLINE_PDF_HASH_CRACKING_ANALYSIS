@@ -28,3 +28,11 @@ Cracking Process: The extracted hashes were supplied to the Networkwalks Passwor
 Hash Extraction: The online tool at onlinehashcrack.com was used to extract the $pdf$ hashes from the locked PDF files.
 Preparation: The extracted hash values were saved into .txt files for local processing.
 Cracking Process: The hash files were imported into the Johnny GUI, which provides a graphical interface for JTR, and a dictionary attack was executed to recover the passwords.
+### **Results**
+
+The dictionary-based attacks successfully recovered the passwords for all three encrypted PDF files, which allowed the hidden CTF flags inside each document to be retrieved.
+| Target | Recovered Password | Captured Flag | Methods Used |
+| :--- | :--- | :--- | :--- |
+| **1** | `good-luck` | `nw{cybersecurity_flag_captured_2608}` | JTR / Johnny; Networkwalks Password Cracker |
+| **2** | `password1` | `nw{networkwalks_persistence_jtr_270521}` | JTR / Johnny; Networkwalks Password Cracker |
+| **3** | `1qaz2wsx` | `nw{networkwalks_flag_260821_1}` | JTR / Johnny; Networkwalks Password Cracker |
