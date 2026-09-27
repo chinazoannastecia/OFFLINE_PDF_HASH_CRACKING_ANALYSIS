@@ -60,8 +60,11 @@ Captured Flag: nw{networkwalks_flag_jtr_270521}
 
 
 Target 2.
+
 Extracted Hash: $pdf$4*4*128*-1028*1*16*ca7f72f...
+
 Cracked Password: password1
+
 Captured Flag: nw{networkwalks_persistence_jtr_270521}
 
 Target 3
