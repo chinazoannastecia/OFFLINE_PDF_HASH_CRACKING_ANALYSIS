@@ -69,12 +69,21 @@ Cracked Password: password1
 
 Captured Flag: nw{networkwalks_persistence_jtr_270521}
 
+**Proof of Crack:**
+![Target 2 Proof](./Screenshot%202026-09-27%20124522.png)
+![Target 2 Proof 2](./Screenshot%202026-09-27%20055457.png)
+
 Target 3
 Extracted Hash: $pdf$4*4*128*-1028*1*16*34eb542...
 
 Cracked Password: 1qaz2wsx
 
 Captured Flag: nw{networkwalks_flag_260821_1}
+
+**Proof of Crack:**
+![Target 3 Proof 1](./Screenshot%202026-09-27%20074259.png)
+![Target 3 Proof 2](./Screenshot%202026-09-27%20080826.png)
+![Target 3 Proof 3](./Screenshot%202026-09-27%20081041.png)
 
 **Mitigation and remediation strategies**
 
