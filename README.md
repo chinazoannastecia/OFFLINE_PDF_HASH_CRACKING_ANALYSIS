@@ -4,7 +4,7 @@ This project documents a controlled cybersecurity lab focused on recovering pass
 
 | Field | Details |
 | :--- | :--- |
-| **Author** | Ugwuoke Annastecia Chinazo |
+| **Author** | Ugwuoke, Annastecia |
 | **Role** | Cyber security Intern |
 | **Program / Batch** | Networkwalks Internship / B083C |
 | **Instructor** | Waqas Karim CCIE |
@@ -36,7 +36,7 @@ This project documents a controlled cybersecurity lab focused on recovering pass
 The dictionary-based attacks successfully recovered the passwords for all three encrypted PDF files, which allowed the hidden CTF flags inside each document to be retrieved.
 | Target | Recovered Password | Captured Flag | Methods Used |
 | :--- | :--- | :--- | :--- |
-| **1** | `good-luck` | `nw{cybersecurity_flag_captured_2608}` | JTR / Johnny; Networkwalks Password Cracker |
+| **1** | `password1` | `nw{networkwalks_flag_jtr_270521-1}` | JTR / Johnny; Networkwalks Password Cracker |
 | **2** | `password1` | `nw{networkwalks_persistence_jtr_270521}` | JTR / Johnny; Networkwalks Password Cracker |
 | **3** | `1qaz2wsx` | `nw{networkwalks_flag_260821_1}` | JTR / Johnny; Networkwalks Password Cracker |
 
@@ -61,7 +61,7 @@ Captured Flag: nw{networkwalks_persistence_jtr_270521}
 
 Target 2
 Extracted Hash: $pdf$4*4*128*-1028*1*16*ca7f72f...
-Cracked Password: good-luck
+Cracked Password: password1
 Captured Flag: nw{cybersecurity_flag_captured_2608}
 Target 3
 Extracted Hash: $pdf$4*4*128*-1028*1*16*34eb542...
