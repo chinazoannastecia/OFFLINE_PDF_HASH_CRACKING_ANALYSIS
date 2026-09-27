@@ -50,3 +50,12 @@ Captured Flag: nw{networkwalks_persistence_jtr_270521}
 #### **Proof of Cracking**
 
 ![Lab Evidence](Screenshot%202026-09-27%20063603.png)
+
+Target 2
+Extracted Hash: $pdf$4*4*128*-1028*1*16*ca7f72f...
+Cracked Password: good-luck
+Captured Flag: nw{cybersecurity_flag_captured_2608}
+Target 3
+Extracted Hash: $pdf$4*4*128*-1028*1*16*34eb542...
+Cracked Password: 1qaz2wsx
+Captured Flag: nw{networkwalks_flag_260821_1}
