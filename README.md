@@ -68,3 +68,27 @@ Target 3
 Extracted Hash: $pdf$4*4*128*-1028*1*16*34eb542...
 Cracked Password: 1qaz2wsx
 Captured Flag: nw{networkwalks_flag_260821_1}
+Mitigation & Remediation Strategies
+To reduce the likelihood of successful offline dictionary attacks, the following controls and policies should be implemented:
+
+1. Enforce Strong Passphrases
+Dictionary attacks rely heavily on common words and simple alphanumeric sequences. Long passphrases with high entropy make dictionary and brute-force attacks substantially more difficult.
+
+2. Avoid Predictable Patterns
+Users should avoid standard keyboard walks such as 1qaz2wsx or appending numbers to common words such as password1, because modern wordlists commonly test these patterns.
+
+3. Use Strong Encryption Standards
+Files should be secured using robust encryption algorithms such as AES-256 rather than legacy encryption methods, increasing the effort required for cracking attempts.
+
+4. Consider Certificate-Based Security
+For highly sensitive documents, certificate-based encryption can reduce reliance on human-selected passwords.
+
+Conclusion
+The exercises demonstrated that predictable passwords such as password1 and 1qaz2wsx can be recovered using standard wordlists and readily available tools. The results reinforce the importance of strong password selection, avoidance of predictable patterns, and appropriate document-encryption controls when protecting files against offline hash-cracking attempts.
+
+Ethics & Scope
+This report documents a controlled training exercise performed against designated lab files. Password-recovery and hash-cracking techniques should only be applied to systems, files, and accounts for which you have explicit authorization.
+
+Project: Offline PDF Hash Cracking Analysis
+Training: Networkwalks Internship / B083C
+Author: Ugwuoke, Annastecia
