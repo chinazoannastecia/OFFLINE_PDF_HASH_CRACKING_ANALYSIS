@@ -21,3 +21,7 @@ This project documents a controlled cybersecurity lab focused on recovering pass
 | **Operating System** | Windows 11 (64-bit) |
 | **Hash Extraction** | OnlineHashCrack PDF Hash Extractor, Networkwalks PDF Hash Calculator |
 | **Password Cracking** | John the Ripper Jumbo (CLI), Johnny (GUI for JTR), Networkwalks Online PDF Cracker |
+Module 1 — John the Ripper (JTR)
+Hash Extraction: The online tool at onlinehashcrack.com was used to extract the $pdf$ hashes from the locked PDF files.
+Preparation: The extracted hash values were saved into .txt files for local processing.
+Cracking Process: The hash files were imported into the Johnny GUI, which provides a graphical interface for JTR, and a dictionary attack was executed to recover the passwords.
