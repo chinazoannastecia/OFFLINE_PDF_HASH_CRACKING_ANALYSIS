@@ -43,7 +43,7 @@ The dictionary-based attacks successfully recovered the passwords for all three 
 Target 1
 Extracted Hash: $pdf$4*4*128*-1028*1*16*0853f2c...
 Cracked Password: password1
-Captured Flag: nw{networkwalks_persistence_jtr_270521}
+Captured Flag: nw{networkwalks_flag_jtr_270521}
 
 ### **Evidence**
 
@@ -62,7 +62,8 @@ Captured Flag: nw{networkwalks_persistence_jtr_270521}
 Target 2
 Extracted Hash: $pdf$4*4*128*-1028*1*16*ca7f72f...
 Cracked Password: password1
-Captured Flag: nw{cybersecurity_flag_captured_2608}
+Captured Flag: nw{networkwalks_persistence_jtr_270521}
+
 Target 3
 Extracted Hash: $pdf$4*4*128*-1028*1*16*34eb542...
 Cracked Password: 1qaz2wsx
